@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+*:focus {
+    outline: none;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    height: 90vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu Mono', monospace;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#terminal {
+    background: rgba(0, 0, 0, 0.712);
+    height: 50vh;
+    width: 80vw;
+    border-radius: .5rem;
+    backdrop-filter: blur(10px);
+    max-width: 800px;
+    max-height: 450px;
+    color: white;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.616);
+}
+
+#topBar {
+    background: #373737;
+    padding: .4rem;
+    border-radius: .5rem .5rem 0 0;
+}
+
+#input {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    padding: .5rem;
+    width: 100%;
+    color: white;
+}
+
+#input::focus {
+    outline: none;
+}
+
+.warning {
+    color: #ffee00;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.good {
+    color: #00ff00;
+}
+
+#commands {
+    padding: .2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    height: 85%;
+    width: 98%;
+}
+
+#commands p {
+    padding: 0;
+    margin: .1rem;
+    flex-wrap: wrap;
+    word-break: break-word;
+}
+
+.window {
+    display: none;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.616);
+    color: white;
+}
+
+.windowTitle {
+    width: 97%;
+    background: #373737;
+    padding: .4rem;
+    border-radius: .5rem .5rem 0 0;
+    color: white;
+}
+
+#fbi {
+    bottom: 15%;
+    right: 10%;
+    background: rgba(0, 0, 0, 0.712);
+    backdrop-filter: blur(10px);
+}
+
+#fbi p {
+    padding: 0;
+    padding-top: .2rem;
+    padding-bottom: .5rem;
+    margin: .5rem;
+    flex-wrap: wrap;
+    word-break: break-word;
+}
+
+#inputEnd {
+    background: none;
+    border: none;
+    border: solid rgba(255, 255, 255, 0.336);
+    border-radius: .5rem;
+    font-size: 1rem;
+    padding: .5rem;
+    width: 60%;
+    color: white;
+    margin-bottom: .7rem;
+}
+
+#input::focus {
+    outline: none;
+}
+
+#raiden {
+    top: 5%;
+    left: 5%;
+}
+
+#raiden img {
+    width: 400px;
+    height: 100%;
+    border-radius: 0 0 .5rem .5rem;
+    border: none;
+}
