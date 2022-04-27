@@ -1,0 +1,13 @@
+{
+    "answers": [{
+            "answer": "bleuarthur",
+            "right": "[<span style='color: lightgreen'>OK</span>] Bienvenue sur votre session",
+            "wrong": "[<span style='color: red'>FAIL</span>] Mauvais identifiant"
+        },
+        {
+            "answer": "oui",
+            "right": "[<span style='color: lightgreen'>OK</span>] oui",
+            "wrong": "[<span style='color: red'>FAIL</span>] non"
+        }
+    ]
+}
