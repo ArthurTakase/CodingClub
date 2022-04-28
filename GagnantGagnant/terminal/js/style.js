@@ -9,7 +9,8 @@ function writeCmd() {
         "Transfert des données sur un serveur distant",
         "Sécurisation du serveur",
         "Connexion aux données de l'utilisateur",
-        "Chargement des données de l'utilisateur"
+        "Chargement des données de l'utilisateur",
+        "Connexion réussie !"
     ]
 
 
@@ -22,16 +23,7 @@ function writeCmd() {
         }
         if (i == text.length)
             isReadyCmd = true;
-    }, 50);
+    }, 300);
 }
 
-// wait while json is loaded
-function waitJson() {
-    if (isReady) {
-        writeCmd();
-    } else {
-        setTimeout(waitJson, 100);
-    }
-}
-
-waitJson()
+writeCmd();
