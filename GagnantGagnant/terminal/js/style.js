@@ -1,5 +1,3 @@
-let isReadyCmd = false
-
 function writeCmd() {
     var i = 0;
 
@@ -21,8 +19,6 @@ function writeCmd() {
         } else {
             clearInterval(interval);
         }
-        if (i == text.length)
-            isReadyCmd = true;
     }, 300);
 }
 

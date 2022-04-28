@@ -5,7 +5,7 @@ let currentstep = 0
 
 input.addEventListener("keydown", function(e) {
     if (e.key === "Enter") {
-        if (isReadyCmd && currentstep >= data["answers"].length)
+        if (currentstep >= data["answers"].length)
             addCmd("[<span style='color: yellow'>WARN</span>] Commande invalide")
         else if (data["answers"][currentstep].answer == input.value.toLowerCase()) {
             addCmd(data["answers"][currentstep].right)
