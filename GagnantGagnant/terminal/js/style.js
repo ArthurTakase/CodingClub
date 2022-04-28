@@ -1,5 +1,4 @@
 let isReadyCmd = false
-let isConnected = false
 
 function writeCmd() {
     var i = 0;
@@ -35,19 +34,4 @@ function waitJson() {
     }
 }
 
-function waitCmd() {
-    if (isReadyCmd) {
-        if (getUrlArgument("id") == data["answers"][currentstep].answer) {
-            addCmd(data["answers"][currentstep].right);
-            isConnected = true;
-            currentstep++;
-        } else {
-            addCmd(data["answers"][currentstep].wrong);
-        }
-    } else {
-        setTimeout(waitCmd, 100);
-    }
-}
-
 waitJson()
-waitCmd()
