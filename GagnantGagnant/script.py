@@ -6,6 +6,7 @@ def testUrl(id_test):
     url = "https://arthurtakase.github.io/CodingClub/GagnantGagnant/terminal/" + id_test + ".html"
     r = requests.get(url)
     if r.status_code == 200:
+        print("Bien joué ! Rendez vous sur " + url)
         return True
     return False
 
