@@ -14,7 +14,7 @@ Le sujet suivant est une sorte de CTF (fait rapidement on va pas se le cacher).
 2. Trouver la commande à rentrer dans le terminal du site ouvert plus tôt en fouillant le code source de la page.
 3. Un texte sera donné. Il faut le décoder une fois de sa base 64, puis utiliser un convretisseur base 64 vers image. Le code à rentrer dans le terminal sera le personnage présent sur cette dernière.
 4. Le terminal va alors donner une phrase que les guests devront dire à un Cobra. Si la phrase est correcte, ils devront affronter un Cobra à un puissance 4 les yeux bandés.
-5. En cas de victoire, un code à mettre sur le terminal est donné. Ce code permet d'accèder à un nouvel énoncé. Le jeu est celui de Wikipedia (partir d'une page pour arriver sur une autre en utilisant uniquement les liens, et le moins possible). Les pages d'arrivée contiennent les mots clefs qui forment le code à trouver qui doit être renseigné sur le terminal pour terminer le sujet.
+5. En cas de victoire, un code à mettre sur le terminal est donné (`vive le javascript`). Ce code permet d'accèder à un nouvel énoncé. Le jeu est celui de Wikipedia (partir d'une page pour arriver sur une autre en utilisant uniquement les liens, et le moins possible). Les pages d'arrivée contiennent les mots clefs qui forment le code à trouver qui doit être renseigné sur le terminal pour terminer le sujet.
 
 ## Indices à donner + Score
 
@@ -44,6 +44,8 @@ Indice 3 : `Image`
 ### Etape 4
 
 Le score est donné par le calcul scientifique suivant : `50 pts / nombreDePersonnesQuIlAFallutPourBattreLeCobra`
+
+Le mot de passe à donner est `vive le javascript`.
 
 ### Etape 5
 

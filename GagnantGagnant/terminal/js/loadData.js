@@ -1,11 +1,5 @@
 let isReady = false
 
-// function that convret base 64 text to base 10 text
-function base64ToText(base64) {
-    var text = atob(base64)
-    return text
-}
-
 // function that auto load json file
 function loadJson(url) {
     var xhttp = new XMLHttpRequest()
