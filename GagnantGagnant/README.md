@@ -59,7 +59,7 @@ Le score est donné par le calcul scientifique suivant : `50 pts / nombreDePageV
 
 ### Etape 1
 
-L'url à trouver est `arthurtakase.github.io/GagnantGagnant/terminal/bleuarthur.html`, dont le code est `bleuarthur`.
+L'url à trouver est `arthurtakase.github.io/GagnantGagnant/terminal/magentahugo.html`, dont le code est `magentahugo`.
 
 Exemple de code réponse :
 
